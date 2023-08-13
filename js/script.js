@@ -14,7 +14,7 @@ let countdownSetInterval;
 let correctAnswers = [];
 function getQuestions(){
     let requests = new XMLHttpRequest();
-    requests.open("GET","../json/questions.json",true);
+    requests.open("GET","json/questions.json",true);
     requests.send();
     requests.addEventListener("readystatechange" , function(){
         if(this.readyState === 4 && this.status === 200){

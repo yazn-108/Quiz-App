@@ -184,7 +184,9 @@ function resultsContent(word,answers,count){
     h4.style.color = "black";
     resultsContainer.appendChild(h4);
     resultsContainer.style.minHeight = "200px";
-    resultsContainer.style.padding = "20px";
+    window.matchMedia("(max-width: 576px)").matches
+    ?resultsContainer.style.padding = "20px 10px"
+    :resultsContainer.style.padding = "20px";
 };
 function countdown(duration, count) {
     if (index < count) {

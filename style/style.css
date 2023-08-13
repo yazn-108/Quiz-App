@@ -129,12 +129,10 @@ body{
     flex-direction: column;
     justify-content: center;}
 .quiz-app .results div p span{
-    background-color: #dfdfdf;
+    background-color: #b2cae5;
     text-align: center;
     border-radius: var(--radius);
-    padding: inherit;
-    opacity: .8;
-    color: black;}
+    padding: inherit;}
 .quiz-app .results button{
     border-radius: var(--radius);
     background-color: var(--main-color);

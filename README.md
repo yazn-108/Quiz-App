@@ -1,2 +1,2 @@
 # Quiz-App
-Quiz App using JavaScript
+Project creation course: https://youtu.be/T5QyLcmcMJ4
